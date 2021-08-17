@@ -8,6 +8,20 @@
     <title>HTML</title>
 </head>
 
+<style>
+    #head-two {
+        color: aqua;
+    }
+
+    .list {
+        color: brown;
+    }
+</style>
+
+<script>
+    alert('hello');
+</script>
+
 <body>
 
     <!-- 
@@ -22,17 +36,74 @@
     commet html
     link (a)
     table
+
     list{
         unorder list (ul)
         order list (ol)
         description list (dl)
     }
-    inline 
-    block
- 
--->
 
-    <!-- list
+    inline & block
+    id & class
+    ifram
+    use js in html
+    semantic tag {
+        heafer
+        nav
+        section
+        article
+        footer
+        main
+    }
+    form
+    form elemants
+
+<!-- ####################################### -->
+
+
+    <form action="">
+        <input type="checkbox" name="cricket" id="football" value="football">
+        <label for="football">football</label> <br>
+        <label for="">name</label>
+        <input type="text"> <br>
+        <label for="">number</label>
+        <input type="number"> <br>
+        <label for="">email</label>
+        <input type="email"> <br>
+        <label for="">password</label>
+        <input type="range"> <br>
+        <input type="date"> <br>
+        <input type="color"> <br>
+         <label for="username">username</label> 
+        <input type="text" name="" id="username"> <br>
+        <button type="submit"> ok </button>
+        <input type="radio" name="fav" id="html"> <br>
+        <label for="html">html</label>
+        <input type="number" disabled placeholder="number"> <br>
+
+         <select name="game"> 
+             <option value="football">Football</option>
+             <option value="valorent">Valorent</option>
+             <option value="ball">Ball</option>
+         </select>
+         <textarea name="user" id="" cols="100" rows="20"></textarea>
+
+    </form>
+
+    <br>
+    <br>
+    <br>
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/6zNo6er0KWA" title="YouTube video player"
+        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen> </iframe>
+
+    <h1>Lorem ipsum dolor sit amet consectetur adipisicing.</h1>
+    <h1 id="head-two">Lorem ipsum dolor sit amet consectetur adipisicing.</h1>
+    <a href="">google</a>
+    <a href="">facebook</a>
+
+<!-- list
 
     1 unordered list (ul)
     2 order list (ol)
@@ -40,11 +111,8 @@
 
 -->
 
-    <h1>Lorem ipsum dolor sit amet consectetur adipisicing.</h1>
-    <h1>Lorem ipsum dolor sit amet consectetur adipisicing.</h1>
-
     <ul>
-        <li>facebook</li>
+        <li class="list">facebook</li>
         <li>TWITTER</li>
         <li>INSTRAGRAM</li>
     </ul>
@@ -52,7 +120,7 @@
     <ol>
         <li>youtube
             <ol>
-                <li>js bangla</li>
+                <li class="list">js bangla</li>
                 <li>freecode.came</li>
                 <li>codecamp</li>
             </ol>
@@ -155,6 +223,7 @@
     <q>hello World</q>
     <p>programmer</p>
 
+    <script src="main.js"></script>
 </body>
 
 </html>
